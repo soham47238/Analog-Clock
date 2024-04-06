@@ -1,1 +1,18 @@
-# Analog-Clock
+# Analog Clock
+- Try this : [Click here](https://soham47238.github.io/Analog-Clock/)
+- Simple Analog Clock using HTML, CSS, & JavaScript
+- Here is some concept for you:
+- ![image](https://github.com/soham47238/Analog-Clock/assets/144425062/ffdd4b0c-c728-4d68-bf78-6794bd12232c)
+- **Structure of a clock:**
+- A clock is composed of 360 degrees and divided into 12 equal divisions. The angle between the consecutive divisions is obtained by dividing the total angle of clock 360° by the number of divisions i.e. 12.
+-![image](https://github.com/soham47238/Analog-Clock/assets/144425062/2d041014-7d76-41fa-853e-5704dfe5bf38)
+- **The angle between any two consecutive divisions = (360°)/12= 30°**
+- Angular value of a minute = (30°)/5= 6°
+- **So, rotating degrees are :**
+-> hRotation = 30*hh + mm/2;
+-> let mRotation = 6*mm;
+-> let sRotation = 6*ss;
+- ![image](https://github.com/soham47238/Analog-Clock/assets/144425062/0c1ab700-8a11-4894-a930-007d881005be)
+- For more details you can refer [this website](https://byjus.com/govt-exams/clocks-logical-reasoning/)
+- Thank you so much.
+- Keep learning...
